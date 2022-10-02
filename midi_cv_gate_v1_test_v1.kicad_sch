@@ -4230,6 +4230,9 @@
     (path "/85dfd754-6be5-4bb8-ae5c-aed85a6bef1c"
       (reference "#PWR020") (unit 1) (value "GND") (footprint "")
     )
+    (path "/c79151ae-7c21-48f7-9574-98b556cec7bb/dc872ed9-23d0-4568-8f91-94c5c0a64394"
+      (reference "#PWR021") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/620ca54b-191a-4985-813d-63193dfc4cd3"
       (reference "#PWR023") (unit 1) (value "GND") (footprint "")
     )
@@ -4697,6 +4700,9 @@
     )
     (path "/777a4512-8c2d-4d61-b31e-d65649e4b4e7"
       (reference "JP7") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
+    )
+    (path "/c79151ae-7c21-48f7-9574-98b556cec7bb/92a5c69b-1aa2-46e0-b9b3-875333773eea"
+      (reference "JP8") (unit 1) (value "Jumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
     )
     (path "/fb718fde-b64d-4cc3-b404-7e5f0c9c36ea"
       (reference "LOGO1") (unit 1) (value "logo1") (footprint "My Stuff:Logo1")
