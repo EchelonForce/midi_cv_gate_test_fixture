@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "MIDI CV GATE Test Fixture")
+    (date "2022-10-15")
+    (rev "1.0")
+    (company "RobotDialogs")
+  )
+
   (lib_symbols
     (symbol "Analog_ADC:MCP3208" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at -5.08 13.335 0)
@@ -1418,6 +1425,11 @@
     (at 233.68 33.02 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a445d1aa-4ee5-478c-aa28-44307348b63a)
+  )
+  (text "Pull MISO (Dout) Low, it's HIGH-Z and we want 0's.\nPull CS HIGH."
+    (at 220.98 155.575 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid a8d3e4aa-eb2f-4944-b69c-b46dd6578b83)
   )
   (text "Low Pass, fc=4822Hz" (at 22.86 58.42 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
