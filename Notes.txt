@@ -1,0 +1,1 @@
+Changed to 11k resistors to bring 10V under the 4.936 reference from the shunt diode.
